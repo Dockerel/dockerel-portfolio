@@ -77,7 +77,7 @@ window.siteContent = {
             title: "Spring Projects",
             description: "Java Application Framework",
             url: "https://github.com/Dockerel/Dockerel/blob/main/spring.md",
-            backgroundImage: "./imgs/Spring.png",
+            backgroundImage: "./imgs/spring.png",
             backgroundColor: "#6bb162ff",
             extraClasses: ["project--mobile-auto-image"]
         },
