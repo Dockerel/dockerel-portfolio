@@ -55,7 +55,7 @@ window.siteContent = {
             title: "Todak",
             description: "Emotional Support Diary Service",
             url: "https://github.com/Dockerel/4th-SC-TEAM1-BE/blob/main/README.md",
-            backgroundImage: "./imgs/todak.png",
+            backgroundImage: "./imgs/todak.gif",
             backgroundColor: "#E6EACC",
         },
         {
@@ -63,21 +63,21 @@ window.siteContent = {
             description: "AI ShortForm Creation Service",
             url: "https://github.com/Dockerel/Team5_BE/blob/Master/README.md",
             backgroundImage: "./imgs/talkak.png",
-            backgroundColor: "#FA4A67"
+            backgroundColor: "#FFFFFF"
         },
         {
             title: "Campus Chatbot",
             description: "RAG based Campus Chatbot Service",
             url: "https://github.com/Dockerel/KnuChatbot-BE/blob/main/README.md",
-            backgroundImage: "./imgs/chatbot.png",
+            backgroundImage: "./imgs/chatbot.gif",
             backgroundColor: "#D41117",
             extraClasses: ["project--mobile-auto-image"]
         },
         {
             title: "Spring Projects",
-            description: "Java Application Framework",
+            description: "Opensource Contribution",
             url: "https://github.com/Dockerel/Dockerel/blob/main/spring.md",
-            backgroundImage: "./imgs/spring.png",
+            backgroundImage: "./imgs/spring.gif",
             backgroundColor: "#6bb162ff",
             extraClasses: ["project--mobile-auto-image"]
         },
@@ -86,7 +86,7 @@ window.siteContent = {
             description: "Everyday Kanji Learning by Email",
             url: "https://github.com/Dockerel/MaeilKanji/blob/main/README.md",
             backgroundImage: "./imgs/maeilkanji.png",
-            backgroundColor: "#F6F4F1"
+            backgroundColor: "#D0BAA2"
         }
     ],
     about: {
