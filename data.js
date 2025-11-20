@@ -40,7 +40,7 @@ window.siteContent = {
             description: "Campus Information Trading Service",
             url: "https://github.com/Dockerel/ddip-BE/blob/main/README.md",
             backgroundImage: "./imgs/ddip.gif",
-            backgroundColor: "#0b2a3e",
+            backgroundColor: "#d6feff",
             featured: true
         },
         {
