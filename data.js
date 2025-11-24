@@ -24,7 +24,7 @@ window.siteContent = {
         achievements: [
             {
                 label: "Spring Contributor",
-                href: "https://github.com/Dockerel/Dockerel/blob/main/contribution.md",
+                href: "https://github.com/Dockerel/Dockerel/blob/main/spring.md",
                 suffix: "(Spring Data JPA, Spring Boot, Spring Framework)"
             },
             {
