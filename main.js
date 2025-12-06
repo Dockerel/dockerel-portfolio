@@ -150,6 +150,35 @@ const renderTech = (techData) => {
     techRoot.appendChild(wrapper);
 };
 
+const renderOpensource = (opensourceData) => {
+    const opensourceRoot = document.getElementById("opensource");
+    if (!opensourceRoot || !opensourceData) return;
+    const wrapper = buildSectionWrapper(opensourceData);
+    (opensourceData.items || []).forEach((award) => {
+        const title = document.createElement("p");
+        title.className = "text-intro";
+        title.textContent = award.label;
+
+        const detail = document.createElement("p");
+        let detailHTML = award.detail || "";
+        if (award.link) {
+            detailHTML += `<a href="${award.link.href}" target="_blank">${award.link.text}</a>`;
+        }
+        if (award.stars) {
+            detailHTML += ` ${'<i class="fas fa-star"></i>'.repeat(award.stars)}`;
+        }
+        if (award.suffix) {
+            detailHTML += award.suffix;
+        }
+        detail.innerHTML = detailHTML;
+
+        wrapper.appendChild(title);
+        wrapper.appendChild(detail);
+    });
+    opensourceRoot.innerHTML = "";
+    opensourceRoot.appendChild(wrapper);
+};
+
 const renderAwards = (awardsData) => {
     const awardsRoot = document.getElementById("awards");
     if (!awardsRoot || !awardsData) return;
@@ -183,10 +212,12 @@ const initScrollAnimations = () => {
     let scrollPos = window.scrollY;
     const about = document.querySelector("#about > .text-wrap");
     const tech = document.querySelector("#Tech > .text-wrap");
+    const opensource = document.querySelector("#opensource > .text-wrap");
     const awards = document.querySelector("#awards > .text-wrap");
     const sections = [
         { element: about, offset: () => about?.offsetHeight - 200 || 0 },
         { element: tech, offset: () => (tech?.offsetHeight || 0) + 300 },
+        { element: opensource, offset: () => (opensource?.offsetHeight || 0) + 700 },
         { element: awards, offset: () => (awards?.offsetHeight || 0) + 700 }
     ];
 
@@ -209,6 +240,7 @@ const renderSite = (data) => {
     renderProjects(data.projects);
     renderAbout(data.about);
     renderTech(data.tech);
+    renderOpensource(data.opensource);
     renderAwards(data.awards);
     initScrollAnimations();
 };

@@ -9,7 +9,8 @@ window.siteContent = {
         links: [
             { label: "Projects", href: "#projects" },
             { label: "About", href: "#about" },
-            { label: "Opensource", href: "#awards" },
+            { label: "Opensource", href: "#opensource" },
+            { label: "Awards", href: "#awards" },
             { label: "Tech", href: "#Tech" },
             { label: "Blog", href: "https://dockerel.tistory.com/", external: true },
             { iconClass: "fab fa-github", href: "https://github.com/Dockerel", external: true, noUnderline: true }
@@ -113,7 +114,7 @@ window.siteContent = {
             }
         ]
     },
-    awards: {
+    opensource: {
         title: "Opensource",
         items: [
             {
@@ -131,6 +132,21 @@ window.siteContent = {
                 detail: "25.07 / Released - 3.4.8 / Documentation Accuracy Improvement / ",
                 link: { href: "https://github.com/spring-projects/spring-framework/pull/35212", text: "link" }
             },
+        ]
+    },
+    awards: {
+        title: "Awards",
+        items: [
+            {
+                label: "창업아이템 경진대회",
+                detail: "25.11 / 우수상 / 소프트웨어교육원 / ",
+                link: { href: "https://github.com/Dockerel/Dockerel/blob/main/%E1%84%8E%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC.jpeg", text: "link" }
+            },
+            {
+                label: "대학생 논문경진대회",
+                detail: "25.11 / 동상 / 한국정보기술학회 / ",
+                link: { href: "https://github.com/Dockerel/Dockerel/blob/main/%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC.pdf", text: "link" }
+            }
         ]
     }
 };
