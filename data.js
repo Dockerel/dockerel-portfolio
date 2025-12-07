@@ -26,7 +26,7 @@ window.siteContent = {
             {
                 label: "Spring Contributor",
                 href: "https://github.com/Dockerel/Dockerel/blob/main/spring.md",
-                suffix: "(Spring Data JPA, Spring Boot, Spring Framework)"
+                suffix: "and"
             },
             {
                 label: "Platinum 3",
@@ -79,7 +79,7 @@ window.siteContent = {
             description: "Opensource Contribution",
             url: "https://github.com/Dockerel/Dockerel/blob/main/spring.md",
             backgroundImage: "./imgs/spring.gif",
-            backgroundColor: "#6bb162ff",
+            backgroundColor: "#adec83ff",
             extraClasses: ["project--mobile-auto-image"]
         },
         {

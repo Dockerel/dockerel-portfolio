@@ -48,7 +48,7 @@ const renderHero = (heroData) => {
             const suffix = item.suffix ? ` ${item.suffix}` : "";
             return `${link}${suffix}`;
         })
-        .join(", ");
+        .join(" ");
     const achievementBlock = achievementsMarkup ? `<p class="rank">${achievementsMarkup}</p>` : "";
 
     heroRoot.innerHTML = `${introMarkup}${subtitleMarkup}${achievementBlock}`;
